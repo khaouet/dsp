@@ -102,7 +102,21 @@
 - Embedded filtering and performance optimisation
 
 ---
+## Final Exam Details (Final exam evaluation Week)
 
+**Format:** 60 Multiple Choice Questions  
+**Duration:** 1.5 hours  
+**Coverage:** Comprehensive – all topics from Weeks 1–13, with **emphasis on Weeks 8–13** (DFT/FFT, digital filters, embedded DSP).
+
+### Key Areas for the Final Exam:
+- DFT, FFT, windowing, spectral leakage
+- FIR vs IIR filters – design, stability, frequency response
+- Filter implementation (direct form, cascaded, etc.)
+- STM32 CMSIS‑DSP – basic functions, FFT, filter blocks
+- Practical DSP applications (audio, sensor processing)
+- Integration of theory with hands-on lab concepts
+
+---
 ## Learning Outcomes
 
 By the end of the course, students will be able to:
