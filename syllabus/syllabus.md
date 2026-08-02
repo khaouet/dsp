@@ -3,7 +3,7 @@
 
 ### **Syllabus (DSP_Training_Program_14_Weeks.md)**
 
-```markdown
+```
 # Digital Signal Processing (DSP) Training Program – 14‑Week Syllabus
 
 ## Duration
