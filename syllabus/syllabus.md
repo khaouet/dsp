@@ -11,10 +11,10 @@
 - **Workshop (Hands‑on Lab):** 3 hours every two weeks (6 workshops = 18 hours)
 - **Homework / Assignments:** 2 hours per week (28 hours total)
 - **Intermediate Evaluation:** 1 hour (Week 7) – 40‑question MCQ
-- **Practical Evaluation:** 2 sessions × 1.5 hours (Weeks 12–13)
+- **Practical Evaluation:** 01 session × 1 hour (Weeks 12–13)
 - **Final Revision & Capstone:** Week 14
 
-**Total Contact/Guided Hours:** ~68.5 hours
+**Total Contact/Guided Hours:** ~69 hours
 
 ---
 
