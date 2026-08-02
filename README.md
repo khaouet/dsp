@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/License-Educational-blue)
 ![Python](https://img.shields.io/badge/Python-3.10+-green)
 ![STM32](https://img.shields.io/badge/STM32-CMSIS--DSP-orange)
-![Duration](https://img.shields.io/badge/Duration-10%20Weeks-red)
+![Duration](https://img.shields.io/badge/Duration-14%20Weeks-red)
 
 ## Overview
 
