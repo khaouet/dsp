@@ -15,9 +15,13 @@ Python implementation, and embedded DSP using STM32.
 ``` text
 Weeks 1-2   Foundations
 Weeks 3-4   Sampling & LTI Systems
-Weeks 5-7   Frequency Analysis (Z, DTFT, DFT, FFT)
-Weeks 8-9   Digital Filters & Embedded DSP
-Week 10     Capstone Project
+Weeks 5-6   Frequency Analysis (Z, DTFT, DFT, FFT) 2/3
+Week  7     mid-training evluation
+Week  8     Frequency Analysis (Z, DTFT, DFT, FFT) 3/3
+Weeks 9-10  Digital Filters & Embedded DSP
+Week 11     Capstone Project
+Week 12-13  Practical evaluation
+Week 14     Global Review
 ```
 
 ## Repository Structure
@@ -50,14 +54,22 @@ Week 10     Capstone Project
   5      Z-Transform
   
   6      Fourier Analysis
+
+  7      Theoretical Evaluation 
   
-  7      DFT & FFT
+  8      DFT & FFT
   
-  8      Digital Filters
+  9      Digital Filters
   
-  9      Embedded DSP
+  10     Embedded DSP
   
-  10     Capstone Project
+  11     Capstone Project
+
+  12 
+
+  13
+
+  14
 
 ## Tools
 
