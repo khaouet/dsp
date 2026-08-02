@@ -40,14 +40,23 @@ Week 10     Capstone Project
   Week   Topic
   ------ ---------------------------
   1      Introduction to DSP
+  
   2      Mathematical Foundations
+  
   3      Sampling & ADC
+  
   4      LTI Systems & Convolution
+  
   5      Z-Transform
+  
   6      Fourier Analysis
+  
   7      DFT & FFT
+  
   8      Digital Filters
+  
   9      Embedded DSP
+  
   10     Capstone Project
 
 ## Tools
