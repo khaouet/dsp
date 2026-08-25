@@ -11,7 +11,7 @@
 - **Devoirs / Travaux pratiques :** 2 heures par semaine (28 heures au total)
 - **Évaluation intermédiaire :** 1 heure (Semaine 7) – QCM de 40 questions
 - **Évaluation pratique :** 01 session × 1 heure (Semaines 12–13)
-- **Révision finale et projet de fin d'études :** Semaine 14
+- **Révision finale et projet de synthèse :** Semaine 14
 
 **Total d'heures encadrées :** ~69 heures
 
