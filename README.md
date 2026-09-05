@@ -80,6 +80,7 @@ Week 14     Global Review
 -   Jupyter
 -   STM32CubeIDE
 -   CMSIS-DSP
+-   Visual Studio Code
 
 ## Recommended References
 
