@@ -7,26 +7,25 @@
 
 ## Overview
 
-A 10-week hands-on Digital Signal Processing course covering theory,
+A 14-week hands-on Digital Signal Processing course covering theory,
 Python implementation, and embedded DSP using STM32.
 
 ## Course Structure
 
-``` text
+```text
 Weeks 1-2   Foundations
 Weeks 3-4   Sampling & LTI Systems
-Weeks 5-6   Frequency Analysis (Z, DTFT, DFT, FFT) 2/3
-Week  7     mid-training evluation
-Week  8     Frequency Analysis (Z, DTFT, DFT, FFT) 3/3
-Weeks 9-10  Digital Filters & Embedded DSP
-Week 11     Capstone Project
-Week 12-13  Practical evaluation
-Week 14     Global Review
+Weeks 5-6   Frequency Analysis (Z, DTFT, DFT, FFT) Part 1
+Week  7     Intermediate Evaluation
+Weeks 8-10  Frequency Analysis and Digital Filters
+Week 11     STM32 CMSIS-DSP and Embedded DSP
+Weeks 12-13 Practical Evaluation
+Week 14     Final Review and Capstone Wrap-up
 ```
 
 ## Repository Structure
 
-``` text
+```text
 .
 ├── syllabus/
 ├── lectures/
@@ -44,28 +43,28 @@ Week 14     Global Review
   Week   Topic
   ------ ---------------------------
   1      Introduction to DSP
-  
+
   2      Mathematical Foundations
-  
+
   3      Sampling & ADC
-  
+
   4      LTI Systems & Convolution
-  
+
   5      Z-Transform
-  
+
   6      Fourier Analysis
 
-  7      Theoretical Evaluation 
-  
+  7      Theoretical Evaluation
+
   8      DFT & FFT
-  
+
   9      Digital Filters
-  
+
   10     Embedded DSP
-  
+
   11     Capstone Project
 
-  12 
+  12
 
   13
 
@@ -73,17 +72,17 @@ Week 14     Global Review
 
 ## Tools
 
--   Python
--   NumPy
--   SciPy
--   Matplotlib
--   Jupyter
--   STM32CubeIDE
--   CMSIS-DSP
--   Visual Studio Code
+- Python
+- NumPy
+- SciPy
+- Matplotlib
+- Jupyter
+- STM32CubeIDE
+- CMSIS-DSP
+- Visual Studio Code
 
 ## Recommended References
 
--   Oppenheim & Schafer
--   Proakis & Manolakis
--   Richard Lyons
+- Oppenheim & Schafer
+- Proakis & Manolakis
+- Richard Lyons
