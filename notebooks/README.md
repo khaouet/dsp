@@ -28,6 +28,26 @@ Files are organized by week or topic, for example:
 - dsp_notes_week03.ipynb
 - dsp_week1.ipynb
 
+## Weekly index
+
+| Week | Notebook | Role |
+|---|---|---|
+| 1 | `dsp_notes_week01.ipynb` | DSP introduction |
+| 2 | `dsp_notes_week02.ipynb` | Complex numbers and sinusoids |
+| 3 | `dsp_notes_week03.ipynb` | Sampling and ADC |
+| 4 | `dsp_notes_week04.ipynb` | LTI systems and convolution |
+| 5 | `dsp_notes_week05.ipynb` | Z-transform |
+| 6 | `dsp_notes_week06.ipynb` | Fourier analysis |
+| 7 | `dsp_notes_week07.ipynb` | Intermediate evaluation |
+| 8 | `dsp_notes_week08.ipynb` and `dsp_notes_week08_practice.ipynb` | DFT/FFT and FIR practice |
+| 9 | `dsp_notes_week09.ipynb` and `dsp_notes_week09_practice.ipynb` | IIR filters and practice |
+| 10 | `dsp_notes_week10.ipynb` and `dsp_notes_week10_practice.ipynb` | Filter implementation |
+| 11 | `dsp_notes_week11.ipynb` | Embedded DSP and CMSIS-DSP |
+| 11 supplement | `dsp_notes_week_supp.ipynb` | Additional STM32 and embedded examples |
+| 12 | `dsp_notes_week12.ipynb` | Practical evaluation – Part 1 |
+| 13 | `dsp_notes_week13.ipynb` | Practical evaluation – Part 2 |
+| 14 | `dsp_notes_week14.ipynb` | Final review and capstone |
+
 ## Typical notebook contents
 
 - definitions and explanations

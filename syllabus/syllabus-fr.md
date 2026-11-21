@@ -10,7 +10,7 @@
 - **Atelier (laboratoire pratique) :** 3 heures toutes les deux semaines (6 ateliers = 18 heures)
 - **Devoirs / Travaux pratiques :** 2 heures par semaine (28 heures au total)
 - **Évaluation intermédiaire :** 1 heure (Semaine 7) – QCM de 40 questions
-- **Évaluation pratique :** 01 session × 1 heure (Semaines 12–13)
+- **Évaluation pratique :** 1 session × 1,5 heure (Semaines 12–13)
 - **Révision finale et projet de synthèse :** Semaine 14
 
 **Total d'heures encadrées :** ~69 heures

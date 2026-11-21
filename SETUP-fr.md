@@ -8,18 +8,14 @@ Ce guide explique comment démarrer avec le dépôt et exécuter les notebooks D
 - Jupyter Notebook ou VS Code avec prise en charge de Jupyter
 - Git
 
-## Paquets Python recommandés
+## Installation depuis les dépendances du dépôt
 
-Installez la pile scientifique principale :
-
-```bash
-pip install numpy scipy matplotlib jupyter notebook
-```
-
-Optionnel mais utile :
+Installez toutes les bibliothèques nécessaires depuis la racine :
 
 ```bash
-pip install pandas seaborn
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name dsp --display-name "Python (DSP)"
 ```
 
 ## Environnement recommandé
@@ -29,7 +25,9 @@ Utilisez un environnement virtuel, par exemple :
 ```bash
 python -m venv .venv
 source .venv/bin/activate
-pip install numpy scipy matplotlib jupyter notebook
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name dsp --display-name "Python (DSP)"
 ```
 
 Sous PowerShell Windows :
@@ -37,7 +35,9 @@ Sous PowerShell Windows :
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install numpy scipy matplotlib jupyter notebook
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name dsp --display-name "Python (DSP)"
 ```
 
 ## Lancer les notebooks
@@ -74,3 +74,13 @@ Ensuite, ouvrez les fichiers du dossier `notebooks/`.
 ## Remarques
 
 Ce dépôt est conçu pour soutenir à la fois la théorie et la mise en pratique. Les notebooks doivent servir de documents de travail principaux pour les exercices et la compréhension des concepts.
+
+## Validation des notebooks
+
+Depuis la racine du dépôt :
+
+```bash
+python scripts/validate_notebooks.py
+```
+
+Ce contrôle vérifie le JSON de chaque notebook et compile toutes les cellules Python.

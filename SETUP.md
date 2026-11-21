@@ -1,76 +1,63 @@
-# Guide de configuration du cours DSP
+# DSP Course Setup Guide
 
-Ce guide explique comment démarrer avec le dépôt et exécuter les notebooks DSP localement.
+This guide explains how to start the repository and run the DSP notebooks locally.
 
-## Prérequis
+## Prerequisites
 
-- Python 3.10 ou plus récent
-- Jupyter Notebook ou VS Code avec prise en charge de Jupyter
+- Python 3.10 or newer
+- Jupyter Notebook or VS Code with Jupyter support
 - Git
 
-## Paquets Python recommandés
+## Install the environment
 
-Installez la pile scientifique principale :
-
-```bash
-pip install numpy scipy matplotlib jupyter notebook
-```
-
-Optionnel mais utile :
-
-```bash
-pip install pandas seaborn
-```
-
-## Environnement recommandé
-
-Utilisez un environnement virtuel, par exemple :
-
-```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install numpy scipy matplotlib jupyter notebook
-```
-
-Sous PowerShell Windows :
+From the repository root:
 
 ```powershell
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
-pip install numpy scipy matplotlib jupyter notebook
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name dsp --display-name "Python (DSP)"
 ```
 
-## Lancer les notebooks
+For Linux/macOS:
 
-Depuis la racine du dépôt :
+```bash
+python -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+python -m ipykernel install --user --name dsp --display-name "Python (DSP)"
+```
+
+## Launch the notebooks
 
 ```bash
 jupyter notebook
 ```
 
-Ensuite, ouvrez les fichiers du dossier `notebooks/`.
+Open files from `notebooks/`, `homework/`, or the linked course material.
 
-## Structure du dépôt
+## Repository structure
 
-- `README.md` — vue d’ensemble du cours et page d’accueil
-- `syllabus/` — syllabus et planning hebdomadaire
-- `lectures/` — notes de cours et diapositives
-- `workshops/` — supports de laboratoire et d’ateliers
-- `homework/` — devoirs et exercices
-- `projects/` — projets et livrables du projet final
-- `notebooks/` — notebooks Jupyter utilisés pour le travail en classe
-- `stm32/` — exemples DSP embarqués sur STM32
-- `references/` — documentation et lectures recommandées
-- `images/` — schémas et ressources visuelles
+- `README.md` — course overview and weekly map
+- `syllabus/` — English and French syllabi
+- `lectures/` — course notes and slides
+- `workshops/` — laboratory activities
+- `homework/` — assignments and STM32 examples
+- `projects/` — capstone project material
+- `notebooks/` — weekly Jupyter notebooks
+- `stm32/` — embedded DSP examples
+- `references/` — recommended references
+- `images/` — course diagrams
+- `scripts/` — repository validation utilities
 
-## Parcours d’apprentissage conseillé
+## Validate notebooks
 
-1. Lisez le syllabus.
-2. Consultez le notebook correspondant.
-3. Complétez l’atelier ou le devoir associé.
-4. Validez les résultats avec des graphiques et analyses.
-5. Passez au module suivant.
+Run the structural and syntax validation from the repository root:
 
-## Remarques
+```bash
+python scripts/validate_notebooks.py
+```
 
-Ce dépôt est conçu pour soutenir à la fois la théorie et la mise en pratique. Les notebooks doivent servir de documents de travail principaux pour les exercices et la compréhension des concepts.
+This check verifies every notebook JSON document and compiles every Python code cell.
