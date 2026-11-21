@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.tmp
+*.log
+
+# Generated STM32CubeIDE and notebook artifacts
+*.hex
+main_user_code_snippets_*.c
+
