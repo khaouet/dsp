@@ -4,6 +4,7 @@ __pycache__/
 .ipynb_checkpoints/
 *.tmp
 *.log
+scripts/
 
 # Generated STM32CubeIDE and notebook artifacts
 *.hex
